@@ -9,10 +9,10 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        My Peronal Portfolio
+        Josue Portfolio
       </SectionTitle>
       <SectionText>
-        The Purpose of Javascript Mastery is to help aspiring and stablished developers to take their development
+        The Purpose of this portfolio is to help aspiring and stablished developers to take their development
         to the next build awesome apps.
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
