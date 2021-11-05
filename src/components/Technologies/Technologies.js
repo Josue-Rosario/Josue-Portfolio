@@ -9,8 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a few a technologies in the web development world.
-      From scratch to end!!
+      I'm working with a few a technologies in the web development world!!
     </SectionText>
     <List>
       <ListItem>

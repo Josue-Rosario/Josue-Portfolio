@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Saras Quesitos',
-    description: "Static website created for a local business, with the purpose of increasing online sales.",
+    description: "A beutiful website created for a bakery",
       image: '/images/sarasquesitos.png',
-      tags: ['HTML', 'CSS', 'JAVASCRIPT'],
-    source: 'https://github.com/Josuerosario21/saraquesitos',
-    visit: 'https://sarasquesitos.com',
+      tags: ['HTML', 'CSS', 'JAVASCRIPT', ],
+    source: 'https://sarasquesitos.com',
+    visit: 'https://github.com/Josuerosario21/saraquesitos',
     id: 0,
   },
   
@@ -23,6 +23,6 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey', },
-  { year: 2020, text: 'I start my First Website', },
+  { year: 2020, text: 'I build my first website', },
   { year: 2021, text: 'Started Reactjs',},
 ];

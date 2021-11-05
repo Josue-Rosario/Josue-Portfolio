@@ -12,10 +12,10 @@ const Hero = () => (
         Josue Portfolio
       </SectionTitle>
       <SectionText>
-        The Purpose of this portfolio is to help aspiring and stablished developers to take their development
-        to the next build awesome apps.
+        One of the purpose of this portfolio is to help aspiring and stablished developers to take their development
+        to the next level and build awesome ideas with Nextjs.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website'}>Learn More</Button>
     </LeftSection>
   </Section>
 );
