@@ -1,23 +1,23 @@
 export const projects = [
   {
     title: 'Saras Quesitos',
-    description: "A beutiful website created for a bakery",
-      image: '/images/sarasquesitos.png',
-      tags: ['HTML', 'CSS', 'JAVASCRIPT', ],
+    description: "Creating a good experience of perfect pastries from Puerto Rico in Texas.",
+      image: '/images/sarasquesitos.jpeg',
+      tags: ['HTML', 'CSS', 'JAVASCRIPT' ],
     source: 'https://sarasquesitos.com',
     visit: 'https://github.com/Josuerosario21/saraquesitos',
     id: 0,
   },
   
-//  {
-//   title: 'E-Commerce',
-//    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-//    image: '/images/2.png',
-//    tags: ['React', 'JavaScript'],
-//    source: 'https://google.com',
-//    visit: 'https://google.com',
-//    id: 1,
-//  },
+  {
+   title: 'Search your new recipe',
+    description:'The process of preparing a meal can be compared to the experience of writing a poem!',
+    image: '/images/recipes.png',
+    tags: ['Html', 'CSS', 'JavaScript', 'APi'],
+    source: 'https://recipes-app-topaz.vercel.app/',
+    visit: 'https://github.com/Josuerosario21/RecipiesApp.git',
+    id: 1,
+ },
 
 ]; 
 
