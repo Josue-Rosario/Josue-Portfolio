@@ -24,7 +24,7 @@ font-size: 3rem;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
-  display: flex;
+  display: container;
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -52,8 +52,8 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 38px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {

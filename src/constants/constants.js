@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Saras Quesitos',
-    description: "Creating a good experience of perfect pastries from Puerto Rico in Texas.",
+    description: "Creating a good experience of perfect pastries from Puerto Rico to Texas.",
       image: '/images/sarasquesitos.jpeg',
       tags: ['HTML', 'CSS', 'JAVASCRIPT' ],
     source: 'https://sarasquesitos.com',
@@ -19,10 +19,18 @@ export const projects = [
     id: 1,
  },
 
+ {
+  title: 'Word Hunt',
+   description:'Dictionary App using React JS and Material UI with support of english',
+   image: '/images/screenshot.jpeg',
+   tags: [ 'React', 'APi', 'Material UI'],
+   source: 'https://recipes-app-topaz.vercel.app/',
+   visit: 'https://github.com/Josuerosario21/RecipiesApp.git',
+   id: 2,
+},
+
 ]; 
 
 export const TimeLineData = [
-  { year: 2019, text: 'Started my journey', },
-  { year: 2020, text: 'I build my first website', },
-  { year: 2021, text: 'Started Reactjs',},
+  { year: 2020, text: 'Started My Career as a web developer',},
 ];
