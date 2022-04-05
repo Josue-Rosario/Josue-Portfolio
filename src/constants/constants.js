@@ -24,8 +24,8 @@ export const projects = [
    description:'Dictionary App using React JS and Material UI with support of english',
    image: '/images/screenshot.jpeg',
    tags: [ 'React', 'APi', 'Material UI'],
-   source: 'https://recipes-app-topaz.vercel.app/',
-   visit: 'https://github.com/Josuerosario21/RecipiesApp.git',
+   source: 'https://dictionary-blond.vercel.app/',
+   visit: 'https://github.com/Josue-Rosario/Dictionary',
    id: 2,
 },
 
