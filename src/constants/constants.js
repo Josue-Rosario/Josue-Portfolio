@@ -20,7 +20,7 @@ export const projects = [
  },
 
  {
-  title: 'Word Hunt',
+  title: 'Dictionary',
    description:'Dictionary App using React JS and Material UI with support of english',
    image: '/images/screenshot.jpeg',
    tags: [ 'React', 'APi', 'Material UI'],
@@ -32,5 +32,5 @@ export const projects = [
 ]; 
 
 export const TimeLineData = [
-  { year: 20, text: 'Started My Career as a web developer',},
+  { year: 2020, text: 'Started My Career as a web developer',},
 ];

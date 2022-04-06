@@ -7,12 +7,12 @@ const Hero = () => (
   <Section>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        Josue Portfolio
+       Welcome To
+        Everybody
       </SectionTitle>
       <SectionText>
-        One of the purpose of this portfolio is to help aspiring and stablished developers to take their development
-        to the next level and build awesome ideas with Nextjs.
+      👋 My name is Josue Rosario. I am a web developer trying to grow a career in the world of Tech. Happy to have uniques experiences on each website and apps that I'm building on. In my free time I enjoy to play Call of duty, amplify my knowledge doing research in search engines, youtube, etc. 
+      And the last one no less important, have quality time with my family(👨‍👩‍👧).
       </SectionText>
     </LeftSection>
   </Section>
