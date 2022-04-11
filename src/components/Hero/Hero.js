@@ -7,12 +7,11 @@ const Hero = () => (
   <Section>
     <LeftSection>
       <SectionTitle main center>
-       Welcome To
-        Everybody
+       Welcome To My Portfolio
       </SectionTitle>
       <SectionText>
-      👋 My name is Josue Rosario. I am a web developer trying to grow a career in the world of Tech. Happy to have uniques experiences on each website and apps that I'm building on. In my free time I enjoy to play Call of duty, amplify my knowledge doing research in search engines, youtube, etc. 
-      And the last one no less important, have quality time with my family(👨‍👩‍👧).
+      👋 Happy to share my knowledge with companies and developers.
+      
       </SectionText>
     </LeftSection>
   </Section>

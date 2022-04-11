@@ -15,3 +15,5 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+

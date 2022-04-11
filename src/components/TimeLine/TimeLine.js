@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am a junior web developer. I am learning and seeing every day how I can turn ideas into web products.
+      👋 My name is Josue Rosario. I am a web developer trying to grow a career in the world of Tech. Happy to have uniques experiences on each website and apps that I'm building on. In my free time I enjoy to play Call of duty, amplify my knowledge doing research in search engines, youtube, etc. And the last one no less important, have quality time with my family(👨‍👩‍👧).
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
