@@ -11,7 +11,6 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
       👋 Happy to share my knowledge with companies and developers.
-      
       </SectionText>
     </LeftSection>
   </Section>
