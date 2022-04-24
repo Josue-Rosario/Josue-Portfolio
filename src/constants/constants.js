@@ -25,10 +25,21 @@ export const projects = [
     title: "Dictionary",
     description:
       "Dictionary App using React JS and Material UI with support of english",
-    image: "/images/screenshot.jpeg",
-    tags: ["React", "APi", "Material UI"],
+    image: "/images/screenshoot.jpeg",
+    tags: ["React", "APi", "UI"],
     source: "https://dictionary-blond.vercel.app/",
     visit: "https://github.com/Josue-Rosario/Dictionary",
+    id: 2,
+  },
+
+  {
+    title: "Restaurant",
+    description:
+      "Responsive Restaurant Website with Modern UI and UX in ReactJS",
+    image: "/images/restaurant.png",
+    tags: ["React", "APi", "UI", "UX"],
+    source: "https://restaurant-beta-six.vercel.app/",
+    visit: "https://github.com/Josue-Rosario/Restaurant",
     id: 2,
   },
 ];
