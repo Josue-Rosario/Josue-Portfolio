@@ -1,24 +1,13 @@
 export const projects = [
   {
-    title: "Saras Quesitos",
+    title: "Restaurant",
     description:
-      "Creating a good experience of perfect pastries from Puerto Rico to Texas.",
-    image: "/images/sarasquesitos.jpeg",
-    tags: ["HTML", "CSS", "JAVASCRIPT"],
-    source: "https://sarasquesitos.com",
-    visit: "https://github.com/Josuerosario21/saraquesitos",
-    id: 0,
-  },
-
-  {
-    title: "Search your new recipe",
-    description:
-      "The process of preparing a meal can be compared to the experience of writing a poem!",
-    image: "/images/recipes.png",
-    tags: ["Html", "CSS", "JavaScript", "APi"],
-    source: "https://recipes-app-topaz.vercel.app/",
-    visit: "https://github.com/Josuerosario21/RecipiesApp.git",
-    id: 1,
+      "Responsive Restaurant Website with Modern UI and UX in ReactJS",
+    image: "/images/restaurant.png",
+    tags: ["React", "UI", "UX"],
+    source: "https://restaurant-beta-six.vercel.app/",
+    visit: "https://github.com/Josue-Rosario/Restaurant",
+    id: 2,
   },
 
   {
@@ -33,14 +22,25 @@ export const projects = [
   },
 
   {
-    title: "Restaurant",
+    title: "Search your new recipe",
     description:
-      "Responsive Restaurant Website with Modern UI and UX in ReactJS",
-    image: "/images/restaurant.png",
-    tags: ["React", "APi", "UI", "UX"],
-    source: "https://restaurant-beta-six.vercel.app/",
-    visit: "https://github.com/Josue-Rosario/Restaurant",
-    id: 2,
+      "The process of preparing a meal can be compared to the experience of writing a poem!",
+    image: "/images/recipes.png",
+    tags: ["Html", "CSS", "JavaScript", "APi"],
+    source: "https://recipes-app-topaz.vercel.app/",
+    visit: "https://github.com/Josuerosario21/RecipiesApp.git",
+    id: 1,
+  },
+
+  {
+    title: "Saras Quesitos",
+    description:
+      "Creating a good experience of perfect pastries from Puerto Rico to Texas.",
+    image: "/images/sarasquesitos.jpeg",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    source: "https://saraquesito.vercel.app/",
+    visit: "https://github.com/Josuerosario21/saraquesitos",
+    id: 0,
   },
 ];
 
