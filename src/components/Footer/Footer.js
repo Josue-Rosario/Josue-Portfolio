@@ -1,9 +1,17 @@
-import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialContainer, SocialIconsContainer } from './FooterStyles';
-
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -15,14 +23,13 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:josue.rosario8@gmail.com">
-            josue.rosario8@gmail.com
+          <LinkItem href="mailto:jr@josuerosario.com">
+            jr@josuerosario.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-        </CompanyContainer>
+        <CompanyContainer></CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Josue-Rosario">
             <AiFillGithub size="3rem" />
