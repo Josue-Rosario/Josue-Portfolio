@@ -1,19 +1,16 @@
 import React from "react";
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import { LeftSection } from "./HeroStyles";
+import { SectionText } from "../../styles/GlobalComponents";
+import { LeftSection, SectionTitle, Section } from "./HeroStyles";
 
 const Hero = () => (
   <Section>
     <LeftSection>
-      <SectionTitle main center>
-        Welcome To My Portfolio
-      </SectionTitle>
+      <SectionTitle center>Welcome to my portfolio</SectionTitle>
       <SectionText>
-        👋 Happy to share my knowledge with companies and developers.
+        <span>Enjoy</span> my journey as a web developer below
+        <span aria-label="a rocket blasting off" role="img">
+          🚀.
+        </span>
       </SectionText>
     </LeftSection>
   </Section>

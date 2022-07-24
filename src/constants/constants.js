@@ -3,7 +3,7 @@ export const projects = [
     title: "Restaurant",
     description:
       "Responsive Restaurant Website with Modern UI and UX in ReactJS",
-    image: "/images/restaurant.png",
+    image: "/images/website-1.png",
     tags: ["React", "UI", "UX"],
     source: "https://restaurant-beta-six.vercel.app/",
     visit: "https://github.com/Josue-Rosario/Restaurant",
@@ -14,7 +14,7 @@ export const projects = [
     title: "Dictionary",
     description:
       "Dictionary App using React JS and Material UI with support of english",
-    image: "/images/screenshoot.jpeg",
+    image: "/images/website-2.png",
     tags: ["React", "APi", "UI"],
     source: "https://dictionary-blond.vercel.app/",
     visit: "https://github.com/Josue-Rosario/Dictionary",
@@ -25,7 +25,7 @@ export const projects = [
     title: "Search your new recipe",
     description:
       "The process of preparing a meal can be compared to the experience of writing a poem!",
-    image: "/images/recipes.png",
+    image: "/images/website-3.png",
     tags: ["Html", "CSS", "JavaScript", "APi"],
     source: "https://recipes-app-topaz.vercel.app/",
     visit: "https://github.com/Josuerosario21/RecipiesApp.git",
@@ -36,7 +36,7 @@ export const projects = [
     title: "Saras Quesitos",
     description:
       "Creating a good experience of perfect pastries from Puerto Rico to Texas.",
-    image: "/images/sarasquesitos.jpeg",
+    image: "/images/website-4.png",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     source: "https://saraquesito.vercel.app/",
     visit: "https://github.com/Josuerosario21/saraquesitos",

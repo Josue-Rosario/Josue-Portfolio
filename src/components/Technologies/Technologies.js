@@ -1,38 +1,48 @@
-import React from 'react';
-import { DiDatabase, DiReact } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiJavascript, DiCss3, DiHtml5, DiReact } from "react-icons/di";
+import { MdPhotoSizeSelectLarge } from "react-icons/md";
+import { AiFillApi } from "react-icons/ai";
+import { FcLike } from "react-icons/fc";
+import { FaShopify } from "react-icons/fa";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { List, ListItem } from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I'm working with a few a technologies in the web development world!!
+      Amazings websites tools programming languages that I
+      <FcLike size="25px" /> to use
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="4rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
+        <DiHtml5 size="3rem" />
       </ListItem>
       <ListItem>
-        <DiDatabase size="4rem" />
-        <ListContainer>
-          <ListTitle>API</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Rapid API
-          </ListParagraph>
-        </ListContainer>
+        <DiCss3 size="3rem" />
       </ListItem>
-      
+      <ListItem>
+        <DiJavascript size="3rem" />
+      </ListItem>
+      <ListItem>
+        <FaShopify size="3rem" />
+      </ListItem>
+      <ListItem>
+        <DiReact size="3rem" />
+      </ListItem>
+      <ListItem>
+        <MdPhotoSizeSelectLarge size="3rem" />
+      </ListItem>
+      <ListItem>
+        <AiFillApi size="3rem" />
+      </ListItem>
     </List>
   </Section>
 );

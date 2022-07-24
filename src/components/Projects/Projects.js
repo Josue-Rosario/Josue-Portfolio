@@ -15,15 +15,24 @@ import {
 } from "./ProjectsStyles";
 import {
   Section,
+  SectionText,
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main center>
+      Projects
+    </SectionTitle>
+    <SectionText>
+      <span>Enjoy</span> my journey as a web developer below
+      <span aria-label="a rocket blasting off" role="img">
+        🚀.
+      </span>
+    </SectionText>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
