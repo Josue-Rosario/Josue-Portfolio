@@ -50,8 +50,8 @@ export const List = styled.ul`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    flex-direction: column;
-    margin: 32px 0;
+    flex-direction: flex;
+    margin: 32px 60px;
   }
 `;
 

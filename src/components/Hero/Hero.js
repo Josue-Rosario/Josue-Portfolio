@@ -7,9 +7,9 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle center>Welcome to my portfolio</SectionTitle>
       <SectionText>
-        <span>Enjoy</span> my journey as a web developer below
+        <span>Enjoy</span> my journey as a web developer.
         <span aria-label="a rocket blasting off" role="img">
-          🚀.
+          🚀
         </span>
       </SectionText>
     </LeftSection>

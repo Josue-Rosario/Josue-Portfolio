@@ -22,10 +22,11 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  cursor: pointer;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -34,6 +35,10 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+`;
+
+export const SectionTitleProject = styled.div`
+  background-color: red;
 `;
 
 export const HeaderThree = styled.h3`

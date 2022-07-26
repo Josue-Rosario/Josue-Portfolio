@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Hard8Vape",
+    description: "Responsive Smoke shop Website",
+    image: "/images/hard8vape.png",
+    tags: ["HTML", "CSS", "JS"],
+    source: "https://hard8-vape.vercel.app/",
+    id: 4,
+  },
+  {
     title: "Restaurant",
     description:
       "Responsive Restaurant Website with Modern UI and UX in ReactJS",
@@ -7,7 +15,7 @@ export const projects = [
     tags: ["React", "UI", "UX"],
     source: "https://restaurant-beta-six.vercel.app/",
     visit: "https://github.com/Josue-Rosario/Restaurant",
-    id: 2,
+    id: 3,
   },
 
   {

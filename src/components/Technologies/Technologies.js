@@ -18,8 +18,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Amazings websites tools programming languages that I
-      <FcLike size="25px" /> to use
+      Amazings programming languages and tools that I
+      <FcLike size="25px" /> to build, design and customize websites.
     </SectionText>
     <List>
       <ListItem>

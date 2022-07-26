@@ -1,16 +1,11 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from "../Header/HeaderStyles";
 import {
-  CompanyContainer,
   FooterWrapper,
   LinkColumn,
   LinkItem,
   LinkList,
   LinkTitle,
-  SocialContainer,
-  SocialIconsContainer,
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -28,17 +23,6 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer></CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://github.com/Josue-Rosario">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/josue-rosario/">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

@@ -21,17 +21,17 @@ export const Section = styled.section`
   }
 `;
 
-export const SectionTitle = styled.h2`
+export const SectionTitle = styled.h1`
   font-weight: 750;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  background-color: #fff;
-  background: ${(props) =>
-    props.colorAlt
-      ? "linear-gradient(270deg, blue 0%, #945DD6 10%)"
-      : "linear-gradient(270deg, #DC143C 40%, #945DD6 100%)"};
+  background: linear-gradient(
+    121.57deg,
+    red 9.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

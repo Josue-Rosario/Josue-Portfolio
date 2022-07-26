@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   BlogCard,
   CardInfo,
@@ -10,12 +9,10 @@ import {
   Tag,
   TagList,
   TitleContent,
-  UtilityList,
   Img,
 } from "./ProjectsStyles";
 import {
   Section,
-  SectionText,
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
@@ -24,18 +21,10 @@ import { projects } from "../../constants/constants";
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
-    <SectionTitle main center>
-      Projects
-    </SectionTitle>
-    <SectionText>
-      <span>Enjoy</span> my journey as a web developer below
-      <span aria-label="a rocket blasting off" role="img">
-        🚀.
-      </span>
-    </SectionText>
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
+      {projects.map(({ id, image, title, description, tags, source }) => (
+        <ExternalLinks href={source}>
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>
@@ -50,13 +39,9 @@ const Projects = () => (
                 ))}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Website</ExternalLinks>
-            </UtilityList>
           </BlogCard>
-        )
-      )}
+        </ExternalLinks>
+      ))}
     </GridContainer>
   </Section>
 );
